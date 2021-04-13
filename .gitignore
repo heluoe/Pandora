@@ -1,0 +1,7 @@
+user.bazelrc
+bazel-*
+*.swp
+
+# C extensions
+*.so
+.vscode
