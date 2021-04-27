@@ -7,6 +7,7 @@ cc_library(
     ]),
     visibility = [
         "//examples:__subpackages__",
+        "//tests:__subpackages__",
         "//pinocchio:__subpackages__",        
     ],
     deps = [ 
