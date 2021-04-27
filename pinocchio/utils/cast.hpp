@@ -5,7 +5,7 @@
 #ifndef __pinocchio_utils_cast_hpp__
 #define __pinocchio_utils_cast_hpp__
 
-#include <Eigen/Core>
+#include "third_party/eigen/Eigen/Core"
 
 namespace pinocchio
 {

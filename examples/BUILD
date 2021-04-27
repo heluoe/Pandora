@@ -5,7 +5,7 @@ cc_binary(
     srcs = ["interpolation-SE3.cpp"],
     deps = [
         "//pinocchio/multibody/liegroup:liegroup",
-        "@eigen",
+        "//third_party:eigen",
         "@boost_171//:algorithm",
     ],
 )

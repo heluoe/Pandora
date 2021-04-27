@@ -12,7 +12,7 @@
 #include "pinocchio/spatial/fwd.hpp"
 #include "pinocchio/spatial/se3-base.hpp"
 
-#include <Eigen/Geometry>
+#include "third_party/eigen/Eigen/Geometry"
 
 namespace pinocchio
 {

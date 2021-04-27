@@ -10,7 +10,7 @@
 #include "pinocchio/macros.hpp"
 #include "pinocchio/math/fwd.hpp"
 
-#include <Eigen/Core>
+#include "third_party/eigen/Eigen/Core"
 
 namespace pinocchio
 {

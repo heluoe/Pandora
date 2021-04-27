@@ -18,6 +18,6 @@ cc_library(
         "//pinocchio/utils:utils",
         "@boost_171//:integer",
         "@boost_171//:lexical_cast",
-        "@eigen"
+        "//third_party:eigen"
     ],
 )

@@ -10,6 +10,6 @@ cc_library(
         "//pinocchio:__subpackages__",
     ],
     deps = [
-        "@eigen",
+        "//third_party:eigen",
     ],
 )

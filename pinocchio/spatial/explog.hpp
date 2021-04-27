@@ -16,7 +16,7 @@
 #include "pinocchio/spatial/skew.hpp"
 #include "pinocchio/utils/static-if.hpp"
 
-#include <Eigen/Geometry>
+#include "third_party/eigen/Eigen/Geometry"
 
 namespace pinocchio
 {
