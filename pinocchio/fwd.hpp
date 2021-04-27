@@ -26,10 +26,9 @@ namespace pinocchio
 
 // Import Eigen and all the required modules
 #include "pinocchio/eigen-macros.hpp"
-
 #include "third_party/eigen/Eigen/Core"
 #ifdef PINOCCHIO_WITH_EIGEN_TENSOR_MODULE
-#include <unsupported/Eigen/CXX11/Tensor>
+#include "third_party/eigen/unsupported/Eigen/CXX11/Tensor"
 #endif
 
 #include <cstddef>  // std::size_t
