@@ -16,10 +16,16 @@ https://docs.bazel.build/versions/master/install-ubuntu.html
 ## Examples
 
 > bazel run //examples:interpolation-SE3
+
+> ...
+
 > bazel test //tests:all --test_output=all
 
 ## LCoV for code analysis
 
 > sudo apt install lcov
+
+then....
 > ./coverage/coverage_analysis.sh 
 
+![lcov_report](https://user-images.githubusercontent.com/19366407/116270834-07b12800-a7b2-11eb-8e0d-9d2e382c02a9.png)
